@@ -1,0 +1,53 @@
+.header-table, .header-table th, .header-table td{
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.task-distribution-table,
+.task-distribution-table th,
+.task-distribution-table td{
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.header-table td{
+    padding: 5px;
+    border-color: black;
+}
+
+.task-distribution-table td{
+    padding: 5px;
+    border-color: black;
+}
+
+nav>a {
+    text-decoration: none;
+    columns: blue;
+}
+
+nav>a:hover{
+    color: goldenrod;
+    border-bottom: 4px solid goldenrod;
+}
+
+nav>a:visited{
+    color: blue;
+}
+
+.use-case-description{
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
