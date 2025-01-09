@@ -5,11 +5,23 @@ and collaboration through a team repository. Work included providing a complete 
 to the project including requirements elicitation, analysis, design, and implementation. 
 
 Project 1: Use Case Descriptions
-        Includes a main html file with: 
+        Includes
+          A main html file with: 
           - a description of the work completed 
           - a glossary with key terms from the project description
           - a main Use Case Diagram describing the overall system
           - individual Use Case descriptions
-        CSS File 
+          CSS File 
           - styling for the main html file   
-Project 2: 
+
+Project 2: Stereotype Diagram and Activity Diagrams 
+        Includes
+          imageStorage folder
+          A main html file with: 
+          - a analysis of work completed 
+          - an overall Stereotype Diagram for the entire system
+          - a main Activity Diagram for the entire system
+          - individual activity diagrams for each use case
+          CSS File 
+          - styling for the main html file   
+
