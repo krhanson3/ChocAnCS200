@@ -11,8 +11,7 @@ Project 1: Use Case Descriptions
           - a glossary with key terms from the project description
           - a main Use Case Diagram describing the overall system
           - individual Use Case descriptions
-          CSS File 
-          - styling for the main html file   
+          CSS File for styling 
 
 Project 2: Stereotype Diagram and Activity Diagrams 
         Includes
@@ -22,6 +21,13 @@ Project 2: Stereotype Diagram and Activity Diagrams
           - an overall Stereotype Diagram for the entire system
           - a main Activity Diagram for the entire system
           - individual activity diagrams for each use case
-          CSS File 
-          - styling for the main html file   
+          CSS File for styling   
+
+Project 3: Class Diagram and Sequence Diagrams 
+        Includes 
+          imageFiles storage folder 
+          the main html file with: 
+          - a main class diagram for the system
+          - sequence diagrams for each use case 
+          CSS file for styling 
 
