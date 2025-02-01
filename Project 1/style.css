@@ -1,43 +1,19 @@
-.header-table, .header-table th, .header-table td{
-    border-collapse: collapse;
-    border: 1px solid;
-}
-
-.task-distribution-table,
-.task-distribution-table th,
-.task-distribution-table td{
-    border-collapse: collapse;
-    border: 1px solid;
-}
-
-.header-table td{
-    padding: 5px;
-    border-color: black;
-}
-
-.task-distribution-table td{
-    padding: 5px;
-    border-color: black;
-}
-
-nav>a {
+nav > a {
     text-decoration: none;
-    columns: blue;
+    color: blue;
 }
 
-nav>a:hover{
+nav > a:hover {
     color: goldenrod;
     border-bottom: 4px solid goldenrod;
 }
 
-nav>a:visited{
+nav > a:visited {
     color: blue;
 }
 
-.use-case-description{
-    border-width: 0px 0px 2px 0px;
-    border-style: solid;
-    border-color: black;
+.use-case-description {
+    border-bottom: 2px solid black;
     width: 100%;
 }
 
@@ -47,7 +23,10 @@ section {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto; 
 }
 
+.definition {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}

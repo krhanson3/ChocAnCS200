@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
+  
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -18,12 +19,11 @@
                 <a class="nav-link" href="#glossary">Glossary</a>
                 <a class="nav-link" href="#use-case-diagram">Use Case Diagram</a>
                 <a class="nav-link" href="#use-case-descriptions">Use Case Descriptions</a>
-                
-     
             </div>
         </nav>
         <br/>
     </header>
+
     <div class="main-container"></div>
         <section>
             <h2 id="summary">Summary</h2>
@@ -41,31 +41,31 @@
         </section>
 		
         <section>
-            <h2 id="glossary">Glossary</h2>
-			<div class="definition">
-<pre style="font-family: Times New Roman, serif">
-<b>ChocAn:</b> an organization that helps anyone addicted to chocolate
-<b>Operator:</b> any person who edits data for ChocAn who is not a Manager, Provider, or Member
-<b>Manager:</b> a person who is directly a part of the leadership of ChocAn
-<b>ChocAn Data Center:</b> the data base in charge of verifying the identity of Members, Providers, Managers, and stores all service & billing data 
-<b>Members:</b> people addicted to chocolate who are seeking consultations and treatments
-<b>Member Number:</b> a nine-digit number associated with a Member’s account			 
-<b>Membership Card:</b> a plastic card that has the Member’s name & Member number
-<b>Provider:</b> any healthcare professional contracted by ChocAn
-<b>Provider Number:</b> an individual ID number given to each Provider
-<b>Provider Directory:</b> a list of all possible services tand their corresponding service number and service fee 
-<b>Terminal:</b> a monitor that has access to the ChocAn software
-<b>ChocAn Software:</b> the overall program that connects terminals & the ChocAn Data Center
-<b>Acme:</b> Acme Accounting Services (third-party organization) responsible for financial procedures
-<b>Provider Banking:</b> non-human 3rd party actor that receives billing information to be sent to the Provider’s banking software
-</pre>	
-</section>
+            <h2>Glossary</h2>
+            <ul>
+                <li><strong>ChocAn:</strong> An organization that supports individuals addicted to chocolate.</li>
+                <li><strong>Operator:</strong> Personnel managing ChocAn data excluding Managers, Providers, and Members.</li>
+                <li><strong>Manager:</strong> A leadership role within ChocAn.</li>
+                <li><strong>ChocAn Data Center:</strong>  the data base in charge of verifying the identity of Members, Providers, Managers, and stores all service & billing data</li>
+                <li><strong>Member:</strong> people addicted to chocolate who are seeking consultations and treatments</li>
+                <li><strong>Member Number:</strong> a nine-digit number associated with a Member’s account	</li>
+                <li><strong>Membership Card:</strong> a plastic card that has the Member’s name & Member number</li>
+                <li><strong>Provider:</strong> A healthcare professional contracted by ChocAn.</li>
+                <li><strong>Provider Number:</strong> an individual ID number given to each Provider</li>
+                <li><strong>Provider Directory:</strong> a list of all possible services tand their corresponding service number and service fee</li>
+                <li><strong>ChocAn Software</strong> the overall program that connects terminals & the ChocAn Data Center</li>
+				<li><strong>Terminal:</strong> A device running ChocAn software.</li>
+                <li><strong>Acme:</strong> Third-party financial service provider.</li>
+                <li><strong>Provider Banking:</strong>Third-party services that receive payment information to be sent to the Provider’s account
+				</li>
+            </ul>
+        </section>
 
 <section>
 <h2 id="use-case-diagram">Use Case Diagram</h2>
-<img src="Hanson_Diagram.png" width="982" height="710">
+<img src="Hanson_Diagram.png"  width="982" height="710">
 </section>  
-	
+</br>
 <section>
 <h2 id="use-case-descriptions">Use Case Description</h2>
             
@@ -79,18 +79,24 @@
 	<li>The Member hands over their membership card to the Provider</li>
 	<li>The Provider swipes the membership card on the Terminal</li>
 	<li>The ChocAn Software dials the ChocAn Data Center to validate the Member’s Identity
-		<ol type="a">	
-		<li>The word “Validated” appears on the Terminal screen</li>
-		</ol>
-		</li>
+	<li>The word “Validated” appears on the Terminal screen</li>
+		
 </ol>
-<pre style="font-family: Times New Roman, serif;">		
-<b>Extensions:</b>
-	4.a. The ChocAn Software fails to validate the Member's Identity
-		4.a.1: "Invalid Number" appears on the Terminal screen
-		4.a.2: If the Member hasn't paid membership fees for at least the past month, the Member's status is "suspended"
-			4.a.2.i: "Member Suspended" appears on the Terminal Screen
-</pre>
+		
+<p><b>Extensions:</b></p>
+<ol start="5">
+	<li>a. The ChocAn Software fails to validate the Member's Identity</li>
+		<ol start="5">
+			<li>a. 1: "Invalid Number" appears on the Terminal screen</li>
+		</ol>
+</ol>
+<ol start="5">
+	<li>b If the Member hasn't paid membership fees for at least the past month, the Member's status is "suspended"</li>
+		<ol start="5">
+			<li>b. 1 "Member Suspended" appears on the Terminal Screen</li>
+		</ol>
+</ol>
+
 </div>
 
 <div class="use-case-description">
@@ -131,11 +137,14 @@
 	<li>The fee for the service provided is displayed on the Terminal screen</li>
 </ol>
 
-<pre style="font-family: Times New Roman, serif;">		
-<b>Extensions:</b>
-	8a. If the software cannot identify the code, the code is nonexistent
-		8a.1: An “Error” message is printed on the terminal screen
-</pre>
+		
+<p><b>Extensions:</b></p>
+	<ol start="8">
+		<li>a. 1 If the software cannot identify the code, the code is nonexistent</li>
+	</ol>
+	<ol start="8">
+		<li>a. 2 An “Error” message is printed on the terminal screen</li>
+	</ol>	
 </div>
 
 
@@ -322,9 +331,12 @@
 		</ol>
 	</ol>
 	<p><b>Extensions:</b></p>
-	<ol>
-		<p>The ChocAn Software fails to validate the Operator's Identity</p>
-		<p>"Invalid Number" appears on the Terminal screen</p>
+	<ol start="2">
+		<li>b The ChocAn Software fails to validate the Operator's Identity</li>
+		<ol type="i">
+			<li>"Invalid Number" appears on the Terminal screen</li>
+		</ol>
+		
 	</ol>
 </div>
 
@@ -341,9 +353,12 @@
 		</ol>
 	</ol>
 	<p><b>Extensions:</b></p>
-	<ol>
-		<p>The ChocAn Software fails to validate the Manager's Identity</p>
-		<p>"Invalid Number" appears on the Terminal screen</p>
+	<ol start="2">
+		<li>b The ChocAn Software fails to validate the Manager's Identity</li>
+		<ol type="i">
+			<li>"Invalid Number" appears on the Terminal screen</li>
+		</ol>
+		
 	</ol>
 </div>
 
@@ -360,9 +375,12 @@
 		</ol>
 	</ol>
 	<p><b>Extensions:</b></p>
-	<ol>
-		<p>The ChocAn Software fails to validate the Provider's Identity</p>
-		<p>"Invalid Number" appears on the Terminal screen</p>
+	<ol start="2">
+		<li>b The ChocAn Software fails to validate the Provider's Identity</li>
+		<ol type="i">
+			<li>"Invalid Number" appears on the Terminal screen</li>
+		</ol>
+		
 	</ol>
 </div>
 

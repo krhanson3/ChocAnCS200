@@ -451,6 +451,7 @@ public class Main{
 
         return isVerified;
     }
+	
 	public static String findManagerEmail(String userName)
 	{	String filepath = "DataCenter\\ManagerData.txt";                    // initialize variable
     	

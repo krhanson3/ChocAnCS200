@@ -17,7 +17,7 @@ Project 2: Stereotype Diagram and Activity Diagrams
         Includes
           imageStorage folder
           A main html file with: 
-          - a analysis of work completed 
+          - an analysis of work completed 
           - an overall Stereotype Diagram for the entire system
           - a main Activity Diagram for the entire system
           - individual activity diagrams for each use case
@@ -31,3 +31,10 @@ Project 3: Class Diagram and Sequence Diagrams
           - sequence diagrams for each use case 
           CSS file for styling 
 
+Project 4: ChocAn Software & GUI 
+        Includes: 
+          Main : program running in terminal 
+          ChocAn : GUI of program
+          Software Operator 
+            -Member: class definition and relative CRUD f8ujunctions
+            -Provider: class definition and relative CRUD functions
