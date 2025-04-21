@@ -36,5 +36,9 @@ Project 4: ChocAn Software & GUI
           Main : program running in terminal 
           ChocAn : GUI of program
           Software Operator 
-            -Member: class definition and relative CRUD f8ujunctions
+            -Member: class definition and relative CRUD functions
             -Provider: class definition and relative CRUD functions
+          Report Generator
+            - MemberServiceReport
+            - ProviderServiceReport
+            - WeeklyServiceReport
